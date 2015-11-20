@@ -1,0 +1,18 @@
+name: simple_tasks
+tasks:
+  - task: debugText
+    input:
+      text: hello
+    tasks:
+      - task: debugReturnMultiple
+        input:
+          count: 5
+        tasks:
+          - task: debugReturnSingle
+            input:
+              property: 'property1'
+              value: parent.output.data
+          - task: debugReturnSingle
+            input:
+              property: 'property2'
+              value: parent.output.data

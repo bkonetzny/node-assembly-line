@@ -1,0 +1,40 @@
+{
+  "name" : "assembly-line",
+  "description": "Configurable task runner for nested tasks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "bkonetzny",
+    "email": "bkonetzny@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Organiceme/node-assembly-line/issues"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "yamljs": "^0.2.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/Organiceme/node-assembly-line",
+  "keywords": [
+    "task",
+    "workflow"
+  ],
+  "license": "MIT",
+  "main" : "./assembly-line.js",
+  "maintainers": [
+    {
+      "name": "bkonetzny",
+      "email": "bkonetzny@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Organiceme/node-assembly-line.git"
+  }
+}
